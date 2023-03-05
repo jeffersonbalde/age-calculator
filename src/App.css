@@ -16,14 +16,19 @@ button {
     margin-top: 11em;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 400px) {
+    body {
+        background-color: bisque;
+        margin-top: 15em;
+    }
+
     input,
     button {
-        font-size: 2.8rem;
-        margin-top: .6em;
+        font-size: 2rem;
+        margin-top: .3em;
     }
 
     #display {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
 }
